@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Condicionales</title>
+</head>
+<body>
+    <nav>
+            <a href="index.html">Clickeame</a>
+            <a href="stickers.html">Stickers</a>
+            <a href="contrasena.html">Contraseña</a>
+    </nav>
+
+<!-- PARTE 2 -->
+
+<section class="parte_2">
+    <h2>Tienes la oportunidad de obtener 10 Stickers!!!</h2>
+    <div class="container_perros">
+        <div class="box_perros">
+            <img class="imagenes_perros" src="./assets/imgs/perro1.jpg" alt="perro 1" />
+            <input class="primero" type="number" placeholder="Cantidad" min="0" max="10"/>
+        </div>
+        <div class="box_perros">
+            <img class="imagenes_perros" src="./assets/imgs/perro2.jpg" alt="perro 2" />
+            <input class="segundo" type="number" placeholder="Cantidad"  min="0" max="10"/>
+        </div>
+        <div class="box_perros">
+            <img class="imagenes_perros" src="./assets/imgs/perro3.jpg" alt="perro 3" />
+            <input class="tercero" type="number" placeholder="Cantidad" min="0" max="10"/>
+        </div>
+    </div>
+    <div class="resultado">
+        <p><span class="mesage"></span></p>
+        <button onclick="validar()" type="button">Validar</button>
+    </div>
+</section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

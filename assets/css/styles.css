@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* PARTE 1 */
+
+.parte_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gato_click {
+    height: 200px;
+    width: 200px;
+}
+
+/* PARTE 2 */
+
+.container_perros {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.box_perros {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imagenes_perros {
+    height: 200px;
+    width: 200px;
+}
+
+.resultado {
+    text-align: center;
+}
+
+/* PARTE 3 */
+
+.parte_3 {
+    display: flex;
+    justify-content: center;
+}
